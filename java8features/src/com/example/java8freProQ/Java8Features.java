@@ -24,7 +24,7 @@ public class Java8Features {
       int[] numbers={5,9,8,11,2,21};
 
       Integer secondHighest=Arrays.stream(numbers).boxed()
-              .sorted(Comparator.reverseOrder())
+              .sorted()
               .skip(1)
               .findFirst()
               .get();
