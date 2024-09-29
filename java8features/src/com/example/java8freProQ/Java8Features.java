@@ -1,9 +1,6 @@
 package com.example.java8freProQ;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -37,7 +34,15 @@ public class Java8Features {
      String longestString= Arrays.stream(arrays)
               .reduce((word1,word2)->word1.length()>word2.length()?word1:word2)
               .get();
-      System.out.println(longestString);
+     //   System.out.println(longestString);
 
+      //program to find element who starts with particular char
+
+      List<String> stringLists=Arrays.stream(numbers)
+              .boxed()
+              .map(s->s + "")
+              .filter(s->s.startsWith("2"))
+              .collect(Collectors.toList());
+      System.out.println(stringLists);
    }
 }
