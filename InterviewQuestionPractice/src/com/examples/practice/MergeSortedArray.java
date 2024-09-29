@@ -27,7 +27,7 @@ public class MergeSortedArray {
 
         merge(nums1,nums2,m,n);
         for(int i=0;i<m+n;i++){
-            System.out.print(nums1[i]+",");
+            System.out.print(nums1[i]+" ");
         }
     }
 
