@@ -17,7 +17,7 @@ public class RemoveDuplicatesFromSorted {
     }
 
     public static void main(String args[]){
-        int nums[]={0,0,1,1,1,2,2,3,3,4}; //Output: 5 (unique elements only)
+        int nums[]={0,0,1,1,1,2,2,3,3,4}; //Output: 5 (unique elements count only)
         System.out.println(removeDuplicates(nums));
     }
 }
