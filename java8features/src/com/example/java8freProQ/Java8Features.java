@@ -45,4 +45,7 @@ public class Java8Features {
               .collect(Collectors.toList());
       System.out.println(stringLists);
    }
+
 }
+
+

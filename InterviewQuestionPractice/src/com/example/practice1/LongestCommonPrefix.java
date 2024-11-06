@@ -3,8 +3,8 @@ package com.example.practice1;
 import java.util.Arrays;
 
 public class LongestCommonPrefix {
-    public static void main(String[] args){
-        String[] s= {"flower","flow","gry"};
+    public static void main(String[] args) {
+        String[] s = {"flower", "flow", "fly"};
         System.out.println(longestCommonPrefix(s));
     }
 
@@ -12,15 +12,14 @@ public class LongestCommonPrefix {
         Arrays.sort(strs);
         String str1 = strs[0];
         String str2 = strs[strs.length - 1];
-
         int index = 0;
-        while (index < str1.length()) {
-            if (str1.charAt(index) == str2.charAt(index)) {
-                index++;
-            } else {
-                break;
-            }
+        while (index<str1.length())
+        if (str1.charAt(index) == str2.charAt(index)) {
+            index++;
+        } else {
+            break;
         }
-        return index == 0 ? "" : str1.substring(0, index);
+        return index == 0 ? " " : str1.substring(0, index);
+
     }
 }

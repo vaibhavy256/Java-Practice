@@ -18,16 +18,15 @@ public class RotateArray {
     }
 
     private static void reverse(int[] nums, int k, int i) {
-         while(k<=i){
-             int temp=nums[k];
-             nums[k]=nums[i];
-             nums[i]=temp;
-             k++;
-             i--;
-         }
+        while (k <= i) {
+            int temp = nums[k];
+            nums[k] = nums[i];
+            nums[i] = temp;
+            k++;
+            i--;
+        }
+
+
     }
-
-
-
 
 }

@@ -2,19 +2,18 @@ package com.example.practice1;
 
 public class ReverseWords {
 
-    public static void main(String[] args){
-        String s="My Name is Vaibhav ";
+    public static void main(String[] args) {
+        String s = "My Name is Vaibhav b";
         System.out.println(reverseWords(s));
     }
 
-    public static String reverseWords(String s){
-        String[] words=s.split(" +");
-        StringBuilder sb=new StringBuilder();
-        for(int i= words.length-1;i>=0;i--){
-            sb.append(words[i]);
+    public static String reverseWords(String s) {
+        String[] str = s.split(" ");
+        StringBuilder sb = new StringBuilder();
+        for (int i = str.length - 1; i >= 0; i--) {
+            sb.append(str[i]);
             sb.append(" ");
         }
-        return sb.toString().trim();
-
+        return sb.toString();
     }
 }
