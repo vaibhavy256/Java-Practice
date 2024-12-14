@@ -8,7 +8,7 @@ public class HashMapDemo {
             map.put(31, "Shubham");
             map.put(11, "Akshit");
             map.put(2, "Neha");
-            map.put(2, "Mehul");
+
             System.out.println(map);
 
             String student = map.get(31);
