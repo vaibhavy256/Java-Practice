@@ -17,7 +17,7 @@ public class Anagram {
 //        Arrays.sort(charArray2);
         String charArray=str1.chars()
                              .sorted()
-                             .mapToObj(c->String.valueOf((char) c))
+                .mapToObj(c->String.valueOf((char) c))
                              .collect(Collectors.joining());
 
         String charArray2=str2.chars()
