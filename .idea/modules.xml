@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/InterviewQuestionPractice/InterviewQuestionPractice.iml" filepath="$PROJECT_DIR$/InterviewQuestionPractice/InterviewQuestionPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Practice.iml" filepath="$PROJECT_DIR$/Java-Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java8F/Java8F.iml" filepath="$PROJECT_DIR$/Java8F/Java8F.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection_framework/collection_framework.iml" filepath="$PROJECT_DIR$/collection_framework/collection_framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/designPattern/designPattern.iml" filepath="$PROJECT_DIR$/designPattern/designPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8features/java8features.iml" filepath="$PROJECT_DIR$/java8features/java8features.iml" />
       <module fileurl="file://$PROJECT_DIR$/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/multithreading/multithreading.iml" />
