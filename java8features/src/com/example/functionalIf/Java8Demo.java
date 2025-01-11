@@ -1,5 +1,7 @@
 package com.example.functionalIf;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -20,6 +22,10 @@ public class Java8Demo {
         if(predicate.test(supplier.get())){
             consumer1.accept(function.apply(supplier.get()));
         }
+
+
+        List<Integer> integerList= Arrays.asList(22,5,6,82,67);
+        System.out.println("addition:"+integerList.stream().reduce(Integer::sum).get());
     }
 
 
